@@ -1,0 +1,67 @@
+.main {
+    position: relative;
+}
+
+.main__section {
+    position: absolute;
+    width: 30vw;
+    height: 60vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.registration {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    background-color: white;
+
+    h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: calc(15px + 8 * (100vw / 1200));
+        color: #3d4853;
+        margin: 0 auto;
+    }
+}
+
+.input__container {
+    padding: 15px 40px 15px 40px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.registration__input {
+    border: 1px solid #63717f;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 10px 15px 10px;
+}
+
+.registration__input::placeholder {
+    font-family: Roboto;
+    font-size: calc(5px + 8 * (100vw / 1200));
+    font-weight: 400;
+    color: #63717f;
+}
+
+.registration__button {
+    font-family: Roboto;
+    font-size: calc(10px + 10 * (100vw / 1200));
+    font-weight: 700;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    background-color: #343d46;
+    margin: 0 auto;
+}
+.aboba {
+    height: 800px;
+}
